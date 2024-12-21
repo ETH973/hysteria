@@ -66,16 +66,16 @@ HYSTERIA_HOME_DIR="${HYSTERIA_HOME_DIR:-}"
 ###
 
 # Supported operation: install, remove, check_update
-OPERATION=
+OPERATION="install"
 
 # User specified version to install
-VERSION=
+VERSION="v2.4.3"
 
 # Force install even if installed
-FORCE=
+FORCE=1
 
 # User specified binary to install
-LOCAL_FILE=
+LOCAL_FILE=""
 
 
 ###

@@ -282,7 +282,7 @@ installHysteria(){
     fi
     ${PACKAGE_INSTALL} curl wget sudo qrencode procps iptables-persistent netfilter-persistent
 
-    wget -N https://raw.githubusercontent.com/evozi/hysteria-install/main/hy2/install_server.sh
+    wget -N https://raw.githubusercontent.com/ETH973/hysteria//main/hy2/install_server.sh
     bash install_server.sh
 
     rm -f install_server.sh
